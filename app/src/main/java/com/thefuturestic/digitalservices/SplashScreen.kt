@@ -20,7 +20,7 @@ class SplashScreen : AppCompatActivity() {
 
                 try {
                     // Thread will sleep for 5 seconds
-                    Thread.sleep(1000)
+                    Thread.sleep(1500)
 
                     // After 5 seconds redirect to another intent
                     val i = Intent(baseContext, Home::class.java)

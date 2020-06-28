@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "591213794137",
+    "firebase_url": "https://digital-services-app.firebaseio.com",
+    "project_id": "digital-services-app",
+    "storage_bucket": "digital-services-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591213794137:android:6332fc3286ef78081ff248",
+        "android_client_info": {
+          "package_name": "com.thefuturestic.digitalservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591213794137-al2nrvbsd6srogja014d8r24c7d4fie7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3kBoBetDbFcHZzlTL6NKhtmimlK35irM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591213794137-al2nrvbsd6srogja014d8r24c7d4fie7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
