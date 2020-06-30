@@ -10,9 +10,9 @@ import com.bumptech.glide.request.RequestOptions
 import com.thefuturestic.digitalservices.R
 
 
-class ViewHolderHome(internal var mView: View) : RecyclerView.ViewHolder(mView) {
+class GraphicViewHolderCategory(internal var mView: View) : RecyclerView.ViewHolder(mView), View.OnClickListener  {
 
-    fun setDetails(ctx: Context, name: String, img: String) {
+    fun setDetails(ctx: Context, name: String, img: String, categoryTitle: String) {
         val mTitleView1 = mView.findViewById<ImageView>(R.id.home_item_icon)
         val mTitleView2 = mView.findViewById<TextView>(R.id.home_item_text)
         mTitleView2.text = name
@@ -25,5 +25,9 @@ class ViewHolderHome(internal var mView: View) : RecyclerView.ViewHolder(mView) 
             .into(mTitleView1)
 
     }
-
+    override fun onClick(v: View) {
+//        val i = Intent(mView.context, GalleryScreen::class.java)
+//        i.putExtra("categoryTitle", v.tag.toString())
+//        mView.context.startActivity(i)
+    }
 }
