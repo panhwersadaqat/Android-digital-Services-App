@@ -1,4 +1,4 @@
-package com.thefuturestic.digitalservices.HomeScreen.model;
+package com.thefuturestic.digitalservices.HomeScreen;
 
 
 public class Item {

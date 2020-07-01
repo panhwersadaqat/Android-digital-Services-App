@@ -1,4 +1,4 @@
-package com.thefuturestic.digitalservices.HomeScreen.adapter;
+package com.thefuturestic.digitalservices.HomeScreen;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,7 +11,6 @@ import android.widget.TextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.thefuturestic.digitalservices.HomeScreen.model.Item;
 import com.thefuturestic.digitalservices.R;
 
 import java.util.ArrayList;
