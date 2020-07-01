@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WebsoteGallery"></activity>
+        <activity android:name=".DemoHere.Demo"></activity>
+        <activity android:name=".WebsiteGallery" />
         <activity android:name=".GraphicCategory.GraphicCategoryActivity" />
         <activity android:name=".GraphicCategory.GraphicGalleryScreen" />
         <activity android:name=".HomeScreen.Home" />
