@@ -42,22 +42,17 @@ public class Demo extends AppCompatActivity {
     }
 
     private Bitmap[] setUpBitmaps() {
-        Bitmap[] bitmaps = new Bitmap[6];
-//        bitmaps[0] = BitmapFactory.decodeResource(getResources(), R.drawable.banner1);
-//        bitmaps[1] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle_two);
-//        bitmaps[2] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle);
-//        bitmaps[3] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle_two);
-//        bitmaps[4] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle);
-//        bitmaps[5] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle_two);
-//        bitmaps[6] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle);
-//        bitmaps[7] = BitmapFactory.decodeResource(getResources(), R.drawable.samplle_two);
+        Bitmap[] bitmaps = new Bitmap[8];
 
-        bitmaps[0] = BitmapFactory.decodeResource(getResources(), R.drawable.business2);
-        bitmaps[1] = BitmapFactory.decodeResource(getResources(), R.drawable.banner1);
-        bitmaps[2] = BitmapFactory.decodeResource(getResources(), R.drawable.poster2);
-        bitmaps[3] = BitmapFactory.decodeResource(getResources(), R.drawable.certificate1);
-        bitmaps[4] = BitmapFactory.decodeResource(getResources(), R.drawable.social_media_post_2);
-        bitmaps[5] = BitmapFactory.decodeResource(getResources(), R.drawable.logo1);
+        bitmaps[0] = BitmapFactory.decodeResource(getResources(), R.drawable.bigger_one);
+        bitmaps[1] = BitmapFactory.decodeResource(getResources(), R.drawable.samll_one);
+        bitmaps[2] = BitmapFactory.decodeResource(getResources(), R.drawable.bigger_two);
+        bitmaps[3] = BitmapFactory.decodeResource(getResources(), R.drawable.small_two);
+        bitmaps[4] = BitmapFactory.decodeResource(getResources(), R.drawable.bigger_three);
+        bitmaps[5] = BitmapFactory.decodeResource(getResources(), R.drawable.small_three);
+        bitmaps[6] = BitmapFactory.decodeResource(getResources(), R.drawable.bigger_four);
+        bitmaps[7] = BitmapFactory.decodeResource(getResources(), R.drawable.small_four);
+
 
 
         return bitmaps;
