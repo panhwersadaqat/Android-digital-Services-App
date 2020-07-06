@@ -1,4 +1,4 @@
-package com.thefuturestic.digitalservices.DemoHere;
+package com.thefuturestic.digitalservices.GraphicCategory;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -7,11 +7,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.thefuturestic.digitalservices.R;
 
- class GridHolder extends RecyclerView.ViewHolder  {
+ class GraphicCategoryGridHolder extends RecyclerView.ViewHolder  {
 
     ImageView imageView;
 
-    public GridHolder(View itemView) {
+    public GraphicCategoryGridHolder(View itemView) {
         super(itemView);
         imageView = itemView.findViewById(R.id.ivImage);
     }

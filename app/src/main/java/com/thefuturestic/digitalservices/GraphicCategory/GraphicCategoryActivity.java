@@ -1,4 +1,4 @@
-package com.thefuturestic.digitalservices.DemoHere;
+package com.thefuturestic.digitalservices.GraphicCategory;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import android.widget.ImageView;
 
 import com.thefuturestic.digitalservices.R;
 
-public class Demo extends AppCompatActivity {
+public class GraphicCategoryActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     private ImageView back;
 
@@ -24,12 +24,12 @@ public class Demo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_demo);
+        setContentView(R.layout.activity_graphic_ccat);
 
         recyclerView = (RecyclerView) findViewById(R.id.rvMain);
         back = (ImageView)findViewById(R.id.back_btn);
         Bitmap[] bitmaps = setUpBitmaps();
-        recyclerView.setAdapter(new GridLayoutAdapter(bitmaps));
+        recyclerView.setAdapter(new GraphicCategoryGridLayoutAdapter(bitmaps));
         StaggeredGridLayoutManager mLayoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(mLayoutManager);
 
