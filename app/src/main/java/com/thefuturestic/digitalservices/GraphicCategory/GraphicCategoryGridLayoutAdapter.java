@@ -26,6 +26,7 @@ class GraphicCategoryGridLayoutAdapter extends RecyclerView.Adapter<GraphicCateg
     public void onBindViewHolder(GraphicCategoryGridHolder holder, int position) {
         holder.imageView.requestLayout();
         holder.imageView.setImageBitmap(bitmaps[position]);
+
     }
 
     @Override
